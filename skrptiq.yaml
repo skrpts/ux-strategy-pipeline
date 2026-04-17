@@ -1,0 +1,42 @@
+# --- Identity ---
+id: "538daedc-46ef-4c9b-a2ab-b3b715bfcbed"
+name: "ux-strategy-pipeline"
+display_name: "UX Strategy Pipeline"
+description: "Define the problem space, analyse competitors, generate design principles, map experiences, and produce strategic recommendations"
+version: "1.0.0"
+engine: ">=1.0.0"
+
+# --- Attribution ---
+author:
+  name: "skrptiq"
+  url: "https://hub.skrptiq.ai"
+
+licence: "MIT"
+repository: "https://github.com/skrpts/ux-strategy-pipeline"
+
+# --- Discovery (Hub) ---
+category: "designer"
+tags:
+  - "ux-strategy"
+  - "competitive-analysis"
+  - "design-principles"
+  - "experience-mapping"
+
+# --- Security & Access ---
+requires:
+  services:
+    - "llm-service"
+  permissions: []
+  data_handling:
+    - "pii"
+
+# --- Contents ---
+contents:
+  skills: 7
+  prompts: 7
+  workflows: 1
+  services: 1
+  sources: 0
+  documents: 0
+  assets: 0
+  total: 16
