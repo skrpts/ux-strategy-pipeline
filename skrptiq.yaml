@@ -3,7 +3,7 @@ id: "538daedc-46ef-4c9b-a2ab-b3b715bfcbed"
 name: "ux-strategy-pipeline"
 display_name: "UX Strategy Pipeline"
 description: "Define the problem space, analyse competitors, generate design principles, map experiences, and produce strategic recommendations"
-version: "1.0.1"
+version: "1.0.2"
 engine: ">=1.0.0"
 
 # --- Attribution ---

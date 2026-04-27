@@ -35,19 +35,26 @@ composite_steps:
   - "consistency-check"
 execution:
   - skill: "problem-framing"
+    prompt: "frame-problem"
     step_type: "synthesis"
   - skill: "competitive-ux-analysis"
+    prompt: "analyse-competitive-ux"
     step_type: "synthesis"
   - skill: "design-principles-generation"
+    prompt: "generate-design-principles"
     step_type: "generation"
   - skill: "experience-mapping"
+    prompt: "map-experience"
     step_type: "generation"
   - skill: "strategic-recommendations"
+    prompt: "recommend-strategy"
     step_type: "synthesis"
   - skill: "language-polish"
+    prompt: "polish-language"
     step_type: "content"
   - parallel:
     - skill: "consistency-check"
+      prompt: "check-consistency"
       step_type: "review"
 ---
 
