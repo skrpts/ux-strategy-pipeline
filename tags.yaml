@@ -1,0 +1,15 @@
+- id: "ux-strategy"
+  title: "Ux Strategy"
+  description: "Ux Strategy workflows and tools"
+
+- id: "competitive-analysis"
+  title: "Competitive Analysis"
+  description: "Competitive Analysis workflows and tools"
+
+- id: "design-principles"
+  title: "Design Principles"
+  description: "Design Principles workflows and tools"
+
+- id: "experience-mapping"
+  title: "Experience Mapping"
+  description: "Experience Mapping workflows and tools"
