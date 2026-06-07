@@ -47,7 +47,7 @@ execution:
     prompt: "map-experience"
     step_type: "generation"
   - skill: "strategic-recommendations"
-    prompt: "recommend-strategy"
+    prompt: "recommend-ux-strategy"
     step_type: "synthesis"
   - skill: "language-polish"
     prompt: "polish-language"
