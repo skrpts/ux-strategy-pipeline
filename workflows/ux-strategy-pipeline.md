@@ -37,21 +37,27 @@ execution:
   - skill: "problem-framing"
     prompt: "frame-problem"
     step_type: "synthesis"
+    output: { name: "problem_frame", type: "text" }
   - skill: "competitive-ux-analysis"
     prompt: "analyse-competitive-ux"
     step_type: "synthesis"
+    output: { name: "competitive_analysis", type: "text" }
   - skill: "design-principles-generation"
     prompt: "generate-design-principles"
     step_type: "generation"
+    output: { name: "design_principles", type: "list" }
   - skill: "experience-mapping"
     prompt: "map-experience"
     step_type: "generation"
+    output: { name: "experience_map", type: "text" }
   - skill: "strategic-recommendations"
     prompt: "recommend-ux-strategy"
     step_type: "synthesis"
+    output: { name: "recommendations", type: "text" }
   - skill: "language-polish"
     prompt: "polish-language"
     step_type: "content"
+    output: { name: "polished_strategy", type: "text" }
     context:
       voice_profile: "Neutral professional tone"
       grammar_strictness: "Professional"
@@ -59,6 +65,7 @@ execution:
     - skill: "consistency-check"
       prompt: "check-consistency"
       step_type: "review"
+      output: { name: "consistency_verdict", type: "decision" }
       context:
         voice_profile: "Neutral professional tone"
         consistency_strictness: "Standard"
