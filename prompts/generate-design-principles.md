@@ -28,7 +28,7 @@ For each principle:
 
 ### Quality criteria
 - Principles should be specific to this product and these users — not generic ("be simple")
-- Each principle should resolve a real tension or prioritise between competing needs
+- Each principle should resolve a real tension or prioritize between competing needs
 - Principles should be actionable — a designer should be able to apply them
 - Together, the set should cover the major design decisions this initiative faces
 

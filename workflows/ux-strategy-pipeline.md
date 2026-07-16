@@ -2,7 +2,7 @@
 type: workflow
 id: ux-strategy-pipeline
 title: UX Strategy Pipeline
-description: "Define the problem space, analyse competitors, generate design principles, map experiences, and produce strategic recommendations"
+description: "Define the problem space, analyze competitors, generate design principles, map experiences, and produce strategic recommendations"
 tags: [Production, Customer-Facing, UX, Strategy, Analysis]
 connections:
   - target: problem-framing
@@ -73,7 +73,7 @@ execution:
 
 ## Overview
 
-This workflow produces a complete UX strategy from problem definition through strategic recommendations. It frames the problem, analyses the competitive landscape, generates design principles, maps user experiences, and produces a prioritised roadmap.
+This workflow produces a complete UX strategy from problem definition through strategic recommendations. It frames the problem, analyzes the competitive landscape, generates design principles, maps user experiences, and produces a prioritized roadmap.
 
 ## Pipeline Stages
 
@@ -89,7 +89,7 @@ Invoke the **problem-framing** skill to define the problem space, user landscape
 
 **Input:** Problem framing from Stage 1
 
-Invoke the **competitive-ux-analysis** skill to analyse competitors' UX approaches, strengths, weaknesses, and identify strategic gaps.
+Invoke the **competitive-ux-analysis** skill to analyze competitors' UX approaches, strengths, weaknesses, and identify strategic gaps.
 
 **Output:** Competitive matrix with opportunity identification.
 
@@ -113,7 +113,7 @@ Invoke the **experience-mapping** skill to create current-state journey maps, id
 
 **Input:** Complete analysis from all stages
 
-Invoke the **strategic-recommendations** skill to produce a prioritised roadmap with initiatives, phases, metrics, and risk mitigations.
+Invoke the **strategic-recommendations** skill to produce a prioritized roadmap with initiatives, phases, metrics, and risk mitigations.
 
 **Output:** Strategic recommendations with phased roadmap.
 
@@ -128,7 +128,7 @@ Invoke **consistency-check** to verify principles, maps, and recommendations ali
 ## Error Handling
 
 - If no competitors are provided, the competitive analysis focuses on general UX best practices in the space
-- If business goals are vague, recommendations prioritise user impact over business metrics
+- If business goals are vague, recommendations prioritize user impact over business metrics
 
 ## Inputs
 
@@ -147,7 +147,7 @@ Invoke **consistency-check** to verify principles, maps, and recommendations ali
 | Competitive analysis | UX strengths, weaknesses, and gaps across competitors |
 | Design principles | 5-7 actionable principles for the initiative |
 | Experience maps | Current-state journey maps and future-state vision |
-| Strategic recommendations | Prioritised roadmap with phases and metrics |
+| Strategic recommendations | Prioritized roadmap with phases and metrics |
 
 ## Setup
 
@@ -164,6 +164,6 @@ Invoke **consistency-check** to verify principles, maps, and recommendations ali
 ```
 Product Context: "B2B SaaS analytics dashboard, 2 years old, 500 enterprise customers. Current product lets users build custom dashboards, write SQL queries, and schedule reports. Good adoption for power users but low engagement from business managers who need insights without writing SQL."
 Target Users: "Data analysts who build dashboards and write queries (power users, 20% of users, high engagement). Business managers who consume reports and need quick answers (80% of users, low engagement, high churn risk)."
-Competitors: "Looker (strong governance, complex setup), Tableau (powerful visualisation, steep learning curve), Metabase (simple, limited for power users), Mode (good for analysts, weak for business users)"
+Competitors: "Looker (strong governance, complex setup), Tableau (powerful visualization, steep learning curve), Metabase (simple, limited for power users), Mode (good for analysts, weak for business users)"
 Business Goals: "Reduce time-to-insight from 30 minutes to under 5 minutes for business managers. Improve NPS from 32 to 50. Reduce churn for business manager segment from 18% to under 10%."
 ```

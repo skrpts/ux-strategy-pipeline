@@ -1,8 +1,8 @@
 ---
 type: prompt
 id: analyse-competitive-ux
-title: "Analyse Competitive UX"
-description: "Analyses competitors' UX approaches and identifies opportunities"
+title: "Analyze Competitive UX"
+description: "Analyzes competitors' UX approaches and identifies opportunities"
 tags: [Production, UX, Analysis]
 connections:
   - target: competitive-ux-analysis
@@ -39,7 +39,7 @@ For each competitor mentioned in the problem framing:
 |-----------|-------------|-------------|-------------|-------------|
 | Onboarding | ... | ... | ... | ... |
 | Core workflow | ... | ... | ... | ... |
-| Data visualisation | ... | ... | ... | ... |
+| Data visualization | ... | ... | ... | ... |
 
 ### 5. Strategic Opportunities
 - Gaps no competitor addresses well

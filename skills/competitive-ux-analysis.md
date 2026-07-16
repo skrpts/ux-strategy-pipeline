@@ -2,7 +2,7 @@
 type: skill
 id: competitive-ux-analysis
 title: "Competitive UX Analysis"
-description: "Analyses competitors' UX approaches, strengths, and weaknesses"
+description: "Analyzes competitors' UX approaches, strengths, and weaknesses"
 tags: [Production, UX, Analysis]
 connections:
   - target: llm-service
@@ -11,7 +11,7 @@ connections:
 
 ## Capability
 
-Analyses competitors' UX approaches, strengths, and weaknesses
+Analyzes competitors' UX approaches, strengths, and weaknesses
 
 ## When to Use
 

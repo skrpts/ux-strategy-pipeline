@@ -2,7 +2,7 @@
 type: skill
 id: strategic-recommendations
 title: "Strategic Recommendations"
-description: "Produces strategic UX recommendations with prioritisation"
+description: "Produces strategic UX recommendations with prioritization"
 tags: [Production, UX, Strategy]
 connections:
   - target: llm-service
@@ -11,7 +11,7 @@ connections:
 
 ## Capability
 
-Produces strategic UX recommendations with prioritisation
+Produces strategic UX recommendations with prioritization
 
 ## When to Use
 

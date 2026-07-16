@@ -22,7 +22,7 @@ inputs:
     type: text
   competitors:
     label: "Competitors"
-    description: "Key competitors to analyse"
+    description: "Key competitors to analyze"
     example: "Looker, Tableau, Metabase, Mode"
     required: false
     type: text
