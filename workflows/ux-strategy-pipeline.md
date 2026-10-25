@@ -54,6 +54,10 @@ execution:
     prompt: "recommend-ux-strategy"
     step_type: "synthesis"
     output: { name: "recommendations", type: "text" }
+    bindings:
+      source:
+        from_step: "Experience Mapping"
+        field: output
   - skill: "language-polish"
     prompt: "polish-language"
     step_type: "content"
@@ -61,6 +65,10 @@ execution:
     context:
       voice_profile: "Neutral professional tone"
       grammar_strictness: "Professional"
+    bindings:
+      source:
+        from_step: "Strategic Recommendations"
+        field: output
   - parallel:
     - skill: "consistency-check"
       prompt: "check-consistency"
@@ -69,6 +77,10 @@ execution:
       context:
         voice_profile: "Neutral professional tone"
         consistency_strictness: "Standard"
+      bindings:
+        source:
+          from_step: "Language Polish"
+          field: output
 ---
 
 ## Overview

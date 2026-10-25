@@ -1,5 +1,20 @@
 # Release Notes
 
+## v1.0.17
+GH#1100 consumer wave (batch 3) — declare the data flow this workflow was resolving positionally.
+
+Each stage below now receives its input through a declared `bindings:` entry instead of `default_from_previous`, which K-073 revoked. **The value is unchanged**: every binding names the step that immediately precedes it, which is exactly what the positional default resolved to. What changes is that the dependency is stated rather than inferred from position, so a reorder can no longer silently feed a stage the wrong artefact.
+
+Bindings added:
+  `recommend-ux-strategy` ← `from_step: "Experience Mapping"` (step 5)
+  `polish-language` ← `from_step: "Strategic Recommendations"` (step 6)
+  `check-consistency` ← `from_step: "Language Polish"` (step 7)
+
+Dependency pins moved to the published versions that declare these slots:
+  `check-consistency` 1.0.5 → 1.0.6
+  `polish-language` 1.0.1 → 1.0.7
+  `recommend-ux-strategy` 1.0.1 → 1.0.3
+
 ## v1.0.16
 GH#845 — republish with American English (en-US) content, completing the source-only GH#805 flip that never reached the Hub. Copy only — no functional or behaviour change.
 
